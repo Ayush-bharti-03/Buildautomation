@@ -41,5 +41,5 @@ jobs:
 
  
       - name: Run Maven tests
-        working-directory: ./student
+        working-directory: ./student/student
         run: mvn -B test
